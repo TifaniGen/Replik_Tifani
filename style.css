@@ -1,0 +1,351 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	margin: 0 4rem;
+	font-family: 'Montserrat', sans-serif;
+	background-color: whitesmoke;
+}
+
+/* logo et nav */
+header{ 
+	/* margin-left: -4rem;
+	margin-right: -4rem; */
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+    justify-content: space-between;
+    background-image: linear-gradient(to right,#04647C,#04647c,#04647cf0,#04647cbd);
+    border-bottom: 1px solid whitesmoke;
+    font-family: 'Orbitron', sans empattement ;
+}
+.logo-titre{
+	display: flex;
+	flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    color: #84A4BC;
+}
+.logo-nav{ 
+	width: 13rem;
+	height: auto;
+	padding-left: 6rem;
+}
+.gros-titre{
+	padding-left: 2rem;
+	font-size: 3rem;	
+}
+menu{
+    font-weight: bold;
+    color: white;
+    height: 70px;
+}
+.items{
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    font-weight: bold;
+    color: white;
+    margin-right: 20px;
+}
+a:-webkit-any-link {
+    color: whitesmoke;
+    cursor: progress;
+    text-decoration: none;
+}
+
+/*bannière*/
+.banner{
+    background-image: linear-gradient(#04647cc7, #474c4fcc), url(banniere.jpg) ;
+    height: 300px;
+    background-size: cover;
+    text-align: left;    
+}
+.banner h6 {
+    display: flex;
+    color: white;
+    justify-content: flex-end;
+    margin-right: 1rem;
+    padding-top: 125px;
+    font-size: 35px;
+    margin-left: 10rem;
+    font-family: 'Orbitron', sans empattement ;
+}
+
+
+/*3ème bloc adj et qui sommes nous*/
+.we_are{
+	background-color: white;
+	border: 1px solid black;
+	border-color: #84A4BC;
+ 	text-align: left;
+ 	margin: 6vw;
+ 	padding: 4vw;
+ 	border-radius: 10px;
+}
+/* les 3 icones ET les 3 adj */
+.icones{
+	display: flex;
+	justify-content: space-around;
+	padding-top: 3vw;
+	padding-left: 100px;
+	padding-right: 100px;
+}
+/* chacun des 3 icones ET des 3 adj*/
+.icone{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	font-size: 70px;
+
+}
+
+
+h3{
+	font-size: 35px;
+	font-family: 'Orbitron', sans-serif;
+}
+h4 {
+	font-size: 25px;
+	margin-top: 10px;
+	margin-bottom: 5px;
+	margin-left: 20px;
+	font-family: 'Orbitron', sans-serif;
+}
+p{
+	font-size: 20px;
+	margin-top: 5px;
+	margin-bottom: 10px;
+	margin-right: 20px;
+	margin-left: 20px;
+}
+strong{
+	color: #04647C;
+}
+
+/* le paragraphe qui sommes nous */
+.paragraphe_double{
+	display: flex;
+	justify-content: space-around;
+	text-align: justify;
+}
+/* fin de partie 3 */
+
+
+
+/* cartes############*/   
+.catalogue {  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 8rem 0;
+}
+.catalogue-title {
+   margin-left: -42rem;
+}
+.first-ligne, .second-ligne {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.card {
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.produit {  /*dimension des images*/
+    width: 15rem;
+    height: 12rem;
+}
+.card-title {   /*font-family des titres */
+    font-family: 'Orbitron';
+    font-size: 1rem;
+}
+/* fin partie 4 */
+
+
+/* LES avis clients */
+.avis_clients{
+	background-color: white;
+	border: 1px solid black;
+	border-color: #84A4BC;
+	margin: 6vw;
+	margin-top: 20px;
+ 	padding: 1vw;
+ 	border-radius: 10px;
+}
+.avis{
+	background-color: white;
+	border: 1px solid black;
+	border-color: red;
+	margin: 2vw;
+	margin-top: 20px;
+ 	padding: 1vw;
+ 	border-radius: 20px;
+}
+/*flex logo utilisateur et étoile*/
+.flex_logo_stars{
+	display: flex;
+	align-items: center;
+}
+/*logo utilisateur*/
+.fa-face-smile{
+	font-size: 40px;
+	margin-right: 10px;
+}
+/*étoiles d'avis*/
+.stars{
+	color: #04647C; /* Change la couleur des étoiles */
+  	font-size: 20px; /* Change la taille des étoiles */
+}
+
+
+
+
+/* Collapses avis */
+.fall-content {
+  display: none;
+
+}
+.fall-button {
+  background-color: #04647C;
+  color: white;
+  border-radius: 10px;
+  padding: 5px;
+  margin-left: 20px;
+  border: none;
+  cursor: pointer;
+}
+.show {
+  display: block;
+}
+
+/* fin 5 */
+
+/* footer */  
+
+.container-footer{
+    border-top: 1px solid black;
+    margin: 3rem;
+    
+}
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+    
+    
+}
+.block-top {
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: stretch;
+    margin-bottom: 4rem;
+    
+    
+    
+}
+
+.description, .mail {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    justify-content: center;  
+    
+} 
+
+
+
+.logo-footer {
+    width: 5rem;
+    height: auto;
+}
+
+.footer-description, p {  /*paragraphe description*/
+    /* width: 25rem;   */
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* newsletter start css */
+
+.newsletter-form {
+    max-width: 31rem;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 20px;
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+}
+
+.newsletter-form h2 {
+    color: #333333;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.newsletter-form p {
+    color: #666666;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.newsletter-form input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #dddddd;
+    border-radius: 3px;
+    margin-bottom: 10px;
+}
+
+.newsletter-form input[type="submit"] {
+    background-color: #007bff;
+    color: #ffffff;
+    padding: 10px 20px;
+    font-size: 14px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.newsletter-form input[type="submit"]:hover {
+    background-color: #0056b3;
+} 
+/*  */
+
+
+
+.block-bottom{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+}
+.info {
+    display: flex;
+    flex-direction: column;
+    margin: 2rem;
+    align-items: flex-end;
+    
+}
+h4, h2 {
+    font-family: 'Orbitron';
+}
+.info-aide {
+    text-decoration: none;
+    color: #333333;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.end-footer{
+    border-top: 1px solid black;
+    margin: 5rem 0;
+    display: flex;
+    justify-content: center;
+}

@@ -1,0 +1,264 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0 4rem;
+    font-family: 'Montserrat', sans-serif;
+	background-color: white;
+}
+
+h3 {
+    font-size: 35px;
+    font-family: 'Orbitron', sans-serif;
+}
+
+/* nav */
+header{ 
+    margin-left: -4rem;
+    margin-right: -4rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-image: linear-gradient(to right,#04647C,#04647c,#04647cf0,#04647cbd);
+    border-bottom: 1px solid whitesmoke;
+
+}
+.logo-titre{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    color: #84A4BC
+;
+}
+.logo-nav{ 
+    width: 9rem;
+    height: auto;
+    padding-left: 6rem;
+}
+.gros-titre{
+
+    padding-left: 2rem;
+    font-size: 3rem;
+}
+menu{
+    font-weight: bold;
+    color: white;
+    height: 70px;
+}
+.items{
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    font-weight: bold;
+    color: white;
+    margin-right: 20px;
+}
+a:-webkit-any-link {
+    color: whitesmoke;
+    cursor: progress;
+    text-decoration: none;
+}
+
+/*3ème bloc*/
+.we_are{
+    background-color: white;
+    border: 1px solid black;
+    border-color: #84A4BC;
+    text-align: left;
+    margin: 6vw;
+    padding: 4vw;
+    border-radius: 10px;
+}
+/* les 3 icones ET les 3 adj */
+.icones{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 3vw;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+/* chacun des 3 icones ET des 3 adj*/
+.icone{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 70px;
+
+}
+
+/* robot */
+.robot-container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    border: 1px solid #84A4BC;
+    border-radius: 10px;
+    padding: 5rem;
+}
+.robot {
+    width: 30rem;
+    height: auto;
+    margin-right: 4rem;
+    border-radius: 10px;
+}
+/* .text-container{
+    display: flex;
+    flex-direction: column;
+} */
+.titre {
+    margin-bottom: 2rem;
+    font-family: 'Orbitron';
+}
+
+/* carte */
+.card-deck {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 5rem 0;
+}
+.card {
+    border: 1px solid #84A4BC;
+    padding: 1rem;
+    border-radius: 10px;
+}
+.card-img-top {
+    width: 10rem;
+    height: 8rem;
+    border-radius: 10px;
+}
+.robot-name {
+    text-decoration: none;
+    color: black;
+    font-family: 'Orbitron';
+}
+/* footer */
+/* footer */  
+
+.container-footer{
+    border-top: 1px solid black;
+    margin: 3rem;
+    
+}
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+    
+    
+}
+.block-top {
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: stretch;
+    margin-bottom: 4rem;
+    
+    
+    
+}
+
+.description, .mail {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    justify-content: center;  
+    
+} 
+
+
+
+.logo-footer {
+    width: 5rem;
+    height: auto;
+}
+
+.footer-description, p {  /*paragraphe description*/
+    /* width: 25rem;   */
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* newsletter start css */
+
+.newsletter-form {
+    max-width: 31rem;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 20px;
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+}
+
+.newsletter-form h2 {
+    color: #333333;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.newsletter-form p {
+    color: #666666;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.newsletter-form input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #dddddd;
+    border-radius: 3px;
+    margin-bottom: 10px;
+}
+
+.newsletter-form input[type="submit"] {
+    background-color: #007bff;
+    color: #ffffff;
+    padding: 10px 20px;
+    font-size: 14px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.newsletter-form input[type="submit"]:hover {
+    background-color: #0056b3;
+} 
+/*  */
+
+
+
+.block-bottom{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+}
+.info {
+    display: flex;
+    flex-direction: column;
+    margin: 2rem;
+    align-items: flex-end;
+    
+}
+h4, h2 {
+    font-family: 'Orbitron';
+}
+.info-aide {
+    text-decoration: none;
+    color: #333333;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.end-footer{
+    border-top: 1px solid black;
+    margin: 5rem 0;
+    display: flex;
+    justify-content: center;
+}
